@@ -54,6 +54,18 @@ python setup.py install
 pip install vobject parsedatetime
 ```
 
+If you install gcalcli and get this error:
+
+```
+ImportError: No module named contrib.locked_file
+```
+then run 
+```
+pip install google-api-python-client==1.4.2
+pip install oauth2client==1.4.12
+```
+and it should work
+
 Features
 --------
 
